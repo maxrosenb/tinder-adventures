@@ -91,7 +91,7 @@ class tinderAPI():
 
 
 if __name__ == "__main__":
-    token = "a39844e8-2046-4c3c-8a87-8259a488fbdc"
+    token = "YOUR TOKEN"
     api = tinderAPI(token)
 
     while True:
