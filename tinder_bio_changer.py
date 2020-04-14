@@ -12,7 +12,7 @@ headers = {
     "content-type": "application/json",
     "User-agent": "Tinder/7.5.3 (iPhone; iOS 10.3.2; Scale/2.00)",
     "Accept": "application/json",
-    "X-Auth-Token": "a39844e8-2046-4c3c-8a87-8259a488fbdc"
+    "X-Auth-Token": "YOUR TOKEN HERE"
 }
 
 def _json_object_hook(d): return namedtuple('X', d.keys())(*d.values())
